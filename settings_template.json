@@ -1,0 +1,45 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "window.zoomLevel": 0,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "cmake.configureOnOpen": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", 
+      "backgroundColor": "rgba(0,0,0,.2)"
+     
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.onTaskErrors": "abort",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "notebook.lineNumbers": "on",
+  "zenMode.hideLineNumbers": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
